@@ -4,9 +4,9 @@
 
 ### Intro
 
-This repo is all about using [Scikit-Learn](http://scikit-learn.org/stable/index.html) from R. The idea is to create a package, but for now I want to share an easy way to do it without the need of any new package.
+This repo is all about using [Scikit-Learn](http://scikit-learn.org/stable/index.html) from R.
 
-[Scikit-Learn](http://scikit-learn.org/stable/index.html) is a great set of tools that every data scientist should know and use. It is well implemented and has an incredible documentation. Thanks to the wonderful [reticulate](https://github.com/rstudio/reticulate) package by [RStudio](https://www.rstudio.com/), using [Scikit-Learn](http://scikit-learn.org/stable/index.html) from R is now pretty easy.
+[Scikit-Learn](http://scikit-learn.org/stable/index.html) is a great set of tools that every data scientist should know. It is well implemented and has an incredible documentation. Thanks to the wonderful [reticulate](https://github.com/rstudio/reticulate) package by [RStudio](https://www.rstudio.com/), using [Scikit-Learn](http://scikit-learn.org/stable/index.html) from R is now pretty easy.
 
 <br>
 
@@ -69,9 +69,9 @@ install.packages("reticulate")
 
 Then, if you don't already have it, you need to install Scikit-Learn with all its dependencies. You can find how to do it [here](http://scikit-learn.org/stable/install.html).
 
-Ideally, these two steps will be done by the **r-scikit-learn** package in the future.
+Once you are done, try to execute the previous example from R to see if everything is working fine. If not, go to the [reticulate repo](https://github.com/rstudio/reticulate) and try to find out what is failing.
 
-Once you are done, try to execute the previous example from R to see if everything is working fine. If not, go to the [reticulate repo] and try to find out what is failing.
+You can use any Python package with *reticulate*, and you can even use conda environments directly. See the *reticulate repo* for more instructions.
 
 <br>
 
@@ -116,5 +116,5 @@ Some important details:
 
 <br>
 
-And that's it!!! Play a bit with this and give me some feedback. Is creating a package worth the effort?
+And that's it! Play a bit with this and give me some feedback.
 
